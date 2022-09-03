@@ -373,7 +373,8 @@ fill: currentColor;
   width: 170px;
   height: 92px;
   color: #AFB1B8;
-  border: 1px solid  #AFB1B8;
+  border: 1px solid  ;
+  border-color: currentColor;
   border-radius: 4px;
   justify-content: center;
   align-items: center;
@@ -382,8 +383,8 @@ fill: currentColor;
 .client-item .icon{display: block;
   fill:currentColor ;}
 
-.clients a:hover,
-.clients a:focus {
+  .client-item a:hover,
+  .client-item a:focus {
   color: var(--accent-color);
 }
 .client-list {
