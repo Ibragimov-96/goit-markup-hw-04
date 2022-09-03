@@ -98,10 +98,11 @@ img {
 margin-right: 10px;}
 
 /* contact nav */
+.header-contact{margin-left: auto;}
 .main-nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  
 }
 
 .contact-list {
@@ -158,6 +159,7 @@ background-size: contain;
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.4;
   text-align: center;
   min-width: 696px;
@@ -471,7 +473,7 @@ footer {
   display: flex;
 }
 
-.seti-link{display: flex;
+.seti-link a{display: flex;
   width: 44px;
 height: 44px;
 margin-right: 10px;
@@ -483,8 +485,8 @@ background-color:rgba(255, 255, 255, 0.1);;
 
 }
 
-.seti-link:hover,
-.seti-link:focus{
+.seti-link a:hover,
+.seti-link a:focus{
   border-radius: 50%;
   background-color: var(--accent-color);}
 
@@ -495,7 +497,7 @@ background-color:rgba(255, 255, 255, 0.1);;
   display: block;
    fill: currentColor;}
 /* portfolio */
-.header-portfolio {
+header {
   border-bottom: 1px solid #ececec;
 }
 .portfolio{
